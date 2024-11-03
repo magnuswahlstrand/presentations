@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/theme/elva.css">
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/github-dark-dimmed.css">
@@ -19,26 +19,13 @@
         <section>
             <img src="./assets/Cloudflare_Logo.png" alt="Cloudflare" style="height: 400px; margin-bottom: -100px">
             <h1>Durable Objects</h1>
-            <p>Weird and wonderful?</p>
+            <p>Weird and wonderful</p>
             <p style="font-size:x-large; font-style: italic">4 November - Magnus Wahlstrand</p>
         </section>
-        <section  data-markdown="example.md">
-
-        </section>
-
-        <section data-markdown>
-            <textarea data-template>
-      ## Durable Objects
-
-
-A paragraph with some text and a
----
-## Slide 2
----
-## Slide 3
-            </textarea>
-        </section>
-        <section>Slide 2</section>
+        <section data-markdown="sections/cloudflare.md"></section>
+        <section data-markdown="sections/workers.md"></section>
+        <section data-markdown="sections/durable_objects.md"></section>
+        <section data-markdown="sections/summary.md"></section>
     </div>
 </div>
 
@@ -51,11 +38,22 @@ A paragraph with some text and a
     // - https://revealjs.com/initialization/
     // - https://revealjs.com/config/
     Reveal.initialize({
+        transition: 'fade',
+        transitionSpeed: 'fast',
         hash: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+
+        // The "normal" size of the presentation, aspect ratio will
+        // be preserved when the presentation is scaled to fit different
+        // resolutions. Can be specified using percentage units.
+        width: 1280,
+        height: 720,
+        previewLinks: true,
+
     });
+
 </script>
 </body>
 </html>
