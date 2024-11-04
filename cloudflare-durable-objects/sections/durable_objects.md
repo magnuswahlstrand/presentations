@@ -8,7 +8,7 @@
 
 ---
 
-<img class="r-stretch" src="/assets/durable_objects_are_workers.png" />
+<img class="r-stretch" src="./assets/durable_objects_are_workers.png" />
 
 ---
 
@@ -24,15 +24,15 @@
 
 ---
 
-<img class="r-stretch" src="/assets/workers_3.png" />
+<img class="r-stretch" src="./assets/workers_3.png" />
 
 ---
 
-<img class="r-stretch" src="/assets/durable_objects_1.png" />
+<img class="r-stretch" src="./assets/durable_objects_1.png" />
 
 ---
 
-<img class="r-stretch" src="/assets/durable_objects_2.png" />
+<img class="r-stretch" src="./assets/durable_objects_2.png" />
 
 ---
 

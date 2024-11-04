@@ -2,7 +2,7 @@
 
 * Serverless, edge compute <!-- .element: class="fragment" data-fragment-index="1" -->
 * Built
-  on <!-- .element: class="fragment" data-fragment-index="2" --> [Cloudflare's global network](/assets/cloudflare_global_network.png) <!-- .element: class="fragment" data-fragment-index="2" -->
+  on <!-- .element: class="fragment" data-fragment-index="2" --> [Cloudflare's global network](./assets/cloudflare_global_network.png) <!-- .element: class="fragment" data-fragment-index="2" -->
     * 330+ cities <!-- .element: class="fragment" data-fragment-index="2" -->
     * ~50 ms latency to 95% of the world <!-- .element: class="fragment" data-fragment-index="2" -->
 * Runs on V8 isolates <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -28,13 +28,13 @@
 ---
 
 
-<img class="r-stretch" src="/assets/workers_1.png" />
+<img class="r-stretch" src="./assets/workers_1.png" />
 
 ---
 
-<img class="r-stretch" src="/assets/workers_2.png" />
+<img class="r-stretch" src="./assets/workers_2.png" />
 
 ---
 
-<img class="r-stretch" src="/assets/workers_3.png" />
+<img class="r-stretch" src="./assets/workers_3.png" />
 
