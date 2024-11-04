@@ -5,9 +5,10 @@
   on <!-- .element: class="fragment" data-fragment-index="2" --> [Cloudflare's global network](/assets/cloudflare_global_network.png) <!-- .element: class="fragment" data-fragment-index="2" -->
     * 330+ cities <!-- .element: class="fragment" data-fragment-index="2" -->
     * ~50 ms latency to 95% of the world <!-- .element: class="fragment" data-fragment-index="2" -->
-* Cheap - Free 100,000 requests/day <!-- .element: class="fragment" data-fragment-index="3" -->
-* Small - 50ms CPU time, 128MB memory <!-- .element: class="fragment" data-fragment-index="4" -->
-* Runs on V8 isolates <!-- .element: class="fragment" data-fragment-index="5" --> 
+* Runs on V8 isolates <!-- .element: class="fragment" data-fragment-index="3" -->
+  * Lightweight - 3 MB memory overhead
+  * Cheap - Free 100,000 requests/day <!-- .element: class="fragment" data-fragment-index="4" -->
+  * Small - Max 50ms CPU time, 128MB memory <!-- .element: class="fragment" data-fragment-index="5" -->
 ---
 
 # Demo!

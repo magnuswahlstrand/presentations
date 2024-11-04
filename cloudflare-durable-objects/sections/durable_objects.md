@@ -6,13 +6,25 @@
 
 ## What are durable objects?
 
+---
+
+<img class="r-stretch" src="/assets/durable_objects_are_workers.png" />
+
+---
+
+## What are durable objects?
+
 * Built on top of workers
-* Built in persistence (K/V store, SQLite)
-* Each instance (ID)
-    * Single-threaded
-    * Data co-located with code
-    * Owns its state
-* Written in JavaScript or WASM
+* Built in persistence (K/V store, SQLite) <!-- .element: class="fragment" data-fragment-index="2" -->
+* Each instance (ID) <!-- .element: class="fragment" data-fragment-index="3" -->
+  * Single-threaded
+  * Data co-located with application
+  * Owns its state
+* Written in JavaScript or WASM <!-- .element: class="fragment" data-fragment-index="4" -->
+
+---
+
+<img class="r-stretch" src="/assets/workers_3.png" />
 
 ---
 
